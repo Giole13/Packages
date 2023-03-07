@@ -1,0 +1,63 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "security.workspace.trust.untrustedFiles": "open",
+    "powermode.shake.intensity": 0,
+    "powermode.enabled": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "liveshare.presence": true,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSave": true,
+    "workbench.colorCustomizations": {},
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.name.variable.field.cs",
+                ],
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffffd8"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type.struct",
+                ],
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#cbeebbf5"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.constant",
+                ],
+                "settings": {
+                    "fontStyle": "italic, bold",
+                    "foreground": "#ffffffd8"
+                }
+            }
+        ]
+    }
+}
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//     {
+//         "scope": [
+//             "variable.parameter"
+//         ],
+//         "settings": {
+//             "foreground": "#F78C6C"
+//         }
+//     },
+//     {
+//         "scope": [
+//             "variable.other.constant"
+//         ],
+//         "settings": {
+//             "foreground": "#F07178"
+//         }
+//     }
+// ],
+// "comments": "#16bda7"
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
