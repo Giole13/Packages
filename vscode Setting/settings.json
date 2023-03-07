@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Material Theme",
     "security.workspace.trust.untrustedFiles": "open",
     "powermode.shake.intensity": 0,
     "powermode.enabled": true,
@@ -7,8 +7,10 @@
     "liveshare.presence": true,
     "editor.mouseWheelZoom": true,
     "editor.formatOnSave": true,
-    "workbench.colorCustomizations": {},
-    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.colorCustomizations": {
+        // 여기다가 배경, 색상 커스텀 가능
+    },
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -26,7 +28,7 @@
                 ],
                 "settings": {
                     "fontStyle": "",
-                    "foreground": "#cbeebbf5"
+                    "foreground": "#bfffbff5"
                 }
             },
             {
@@ -34,7 +36,34 @@
                     "variable.other.constant",
                 ],
                 "settings": {
-                    "fontStyle": "italic, bold",
+                    "fontStyle": "italic bold",
+                    "foreground": "#ffffffd8"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.property",
+                ],
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffffd8"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type.enum",
+                ],
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#bfffbff5"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.enummember",
+                ],
+                "settings": {
+                    "fontStyle": "",
                     "foreground": "#ffffffd8"
                 }
             }
