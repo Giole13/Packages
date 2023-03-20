@@ -28,7 +28,7 @@
                 ],
                 "settings": {
                     "fontStyle": "",
-                    "foreground": "#bfffbff5"
+                    "foreground": "#8cff8cf5"
                 }
             },
             {
@@ -55,7 +55,7 @@
                 ],
                 "settings": {
                     "fontStyle": "",
-                    "foreground": "#bfffbff5"
+                    "foreground": "#8cff8cf5"
                 }
             },
             {
@@ -66,9 +66,19 @@
                     "fontStyle": "",
                     "foreground": "#ffffffd8"
                 }
+            },
+            {
+                "scope": [
+                    "entity.name.type.interface",
+                ],
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#8cff8cf5"
+                }
             }
         ]
-    }
+    },
+    "editor.fontVariations": false
 }
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 //     {
