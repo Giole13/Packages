@@ -78,25 +78,9 @@
             }
         ]
     },
-    "editor.fontVariations": false
+    "editor.fontVariations": false,
+    "files.exclude": {
+        "**/*.meta": true
+    },
+    "explorer.confirmDragAndDrop": false
 }
-//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-//     {
-//         "scope": [
-//             "variable.parameter"
-//         ],
-//         "settings": {
-//             "foreground": "#F78C6C"
-//         }
-//     },
-//     {
-//         "scope": [
-//             "variable.other.constant"
-//         ],
-//         "settings": {
-//             "foreground": "#F07178"
-//         }
-//     }
-// ],
-// "comments": "#16bda7"
-//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
