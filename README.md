@@ -26,3 +26,11 @@ ReadOnlyFieldAttribute.cs
   - 인스펙터에 노출하지만 값 수정은 X 에트리뷰트
 SceneChange.cs
   - 단축키로 씬을 이동할 수 있는 editor 확장 툴
+SlicedFilledImage
+  - 둥근 모양의 슬라이더를 표현하고 싶을때 찌그러 지지 않게 막아주는 Image 컴포넌트
+
+# Libraray
+UniTask
+- https://github.com/Cysharp/UniTask
+- https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask 링크를 Unity PackageManager에서 바로 붙여 사용 가능
+
