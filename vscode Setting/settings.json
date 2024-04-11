@@ -1,8 +1,5 @@
 {
-    "workbench.colorTheme": "Material Theme",
     "security.workspace.trust.untrustedFiles": "open",
-    "powermode.shake.intensity": 0,
-    "powermode.enabled": true,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "liveshare.presence": true,
     "editor.mouseWheelZoom": true,
@@ -10,7 +7,6 @@
     "workbench.colorCustomizations": {
         // 여기다가 배경, 색상 커스텀 가능
     },
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -79,8 +75,16 @@
         ]
     },
     "editor.fontVariations": false,
+    "editor.semanticTokenColorCustomizations": {},
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
     "files.exclude": {
         "**/*.meta": true
     },
-    "explorer.confirmDragAndDrop": false
+    "editor.fontFamily": "Lucida Console, Consolas, 'Courier New', monospace",
+    "powermode.shake.intensity": 0,
+    "powermode.shake.enabled": false,
+    "powermode.enabled": true,
+    "powermode.combo.counterEnabled": "hide",
+    "powermode.combo.timeout": 0
 }
