@@ -18,3 +18,11 @@ VsCode 변수 색상 변경
 
 VsCode 유니티 개발환경 Extensions
   - C#, C# XML Documentation Comments, Unity Code Snippets, Unity Tools
+
+# Scripts
+DataTransformer.cs
+  - CSV to Json Editor 확장 툴
+ReadOnlyFieldAttribute.cs
+  - 인스펙터에 노출하지만 값 수정은 X 에트리뷰트
+SceneChange.cs
+  - 단축키로 씬을 이동할 수 있는 editor 확장 툴
