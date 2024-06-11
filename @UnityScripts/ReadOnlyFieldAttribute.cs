@@ -3,12 +3,8 @@ using UnityEditor;
 using UnityEngine;
 
 
-
 [System.AttributeUsage(System.AttributeTargets.Field, Inherited = true, AllowMultiple = false)]
-public class ReadOnlyFieldAttribute : PropertyAttribute
-{
-
-}
+public class ReadOnlyFieldAttribute : PropertyAttribute { }
 
 // 출처 : https://dev.to/jayjeckel/unity-tips-properties-and-the-inspector-1goo
 // [ReadOnlyField] 형태의 에트리뷰트로 사용이 가능하다, 읽기전용 에트리뷰터로 인스펙터에서 값 수정이 불가능하게 만들어 준다.
