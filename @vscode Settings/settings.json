@@ -11,7 +11,7 @@
         "textMateRules": [
             {
                 "scope": [
-                    "entity.name.variable.field.cs",
+                    "entity.name.variable.field.cs"
                 ],
                 "settings": {
                     "fontStyle": "",
@@ -20,7 +20,7 @@
             },
             {
                 "scope": [
-                    "entity.name.type.struct",
+                    "entity.name.type.struct"
                 ],
                 "settings": {
                     "fontStyle": "",
@@ -29,7 +29,7 @@
             },
             {
                 "scope": [
-                    "variable.other.constant",
+                    "variable.other.constant"
                 ],
                 "settings": {
                     "fontStyle": "italic bold",
@@ -38,7 +38,7 @@
             },
             {
                 "scope": [
-                    "variable.other.property",
+                    "variable.other.property"
                 ],
                 "settings": {
                     "fontStyle": "",
@@ -47,7 +47,7 @@
             },
             {
                 "scope": [
-                    "entity.name.type.enum",
+                    "entity.name.type.enum"
                 ],
                 "settings": {
                     "fontStyle": "",
@@ -56,7 +56,7 @@
             },
             {
                 "scope": [
-                    "variable.other.enummember",
+                    "variable.other.enummember"
                 ],
                 "settings": {
                     "fontStyle": "",
@@ -65,11 +65,20 @@
             },
             {
                 "scope": [
-                    "entity.name.type.interface",
+                    "entity.name.type.interface"
                 ],
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#bff7bff3"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.event"
+                ],
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffffd8"
                 }
             }
         ]
@@ -86,5 +95,12 @@
     "powermode.shake.enabled": false,
     "powermode.enabled": true,
     "powermode.combo.counterEnabled": "hide",
-    "powermode.combo.timeout": 0
+    "powermode.combo.timeout": 0,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.port": 3000,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editor.enablePreview": false
 }
