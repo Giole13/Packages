@@ -1,4 +1,4 @@
-using Data;
+//using Data;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -22,7 +22,7 @@ public class DataTransformer : EditorWindow
     [MenuItem("Tools/ParseExcel %#K")]
     public static void ParseExcelDataToJson()
     {
-        ParseExcelDataToJson<TestDataLoader, TestData>("Test");
+        //ParseExcelDataToJson<TestDataLoader, TestData>("Test");
         //LEGACY_ParseTestData("Test");
 
         Debug.Log("DataTransformer Completed");
@@ -49,35 +49,35 @@ public class DataTransformer : EditorWindow
 
     }
 
-    static void LEGACY_ParseTestData(string filename)
-    {
-        TestDataLoader loader = new TestDataLoader();
+    //static void LEGACY_ParseTestData(string filename)
+    //{
+    //    TestDataLoader loader = new TestDataLoader();
 
-        string[] lines = File.ReadAllText($"{Application.dataPath}/@Resources/Data/ExcelData/{filename}Data.csv").Split("\n");
+    //    string[] lines = File.ReadAllText($"{Application.dataPath}/@Resources/Data/ExcelData/{filename}Data.csv").Split("\n");
 
-        for (int y = 1; y < lines.Length; y++)
-        {
-            string[] row = lines[y].Replace("\r", "").Split(',');
-            if (row.Length == 0)
-                continue;
-            if (string.IsNullOrEmpty(row[0]))
-                continue;
+    //    for (int y = 1; y < lines.Length; y++)
+    //    {
+    //        string[] row = lines[y].Replace("\r", "").Split(',');
+    //        if (row.Length == 0)
+    //            continue;
+    //        if (string.IsNullOrEmpty(row[0]))
+    //            continue;
 
-            int i = 0;
-            TestData testData = new TestData();
-            testData.Level = ConvertValue<int>(row[i++]);
-            testData.Exp = ConvertValue<int>(row[i++]);
-            testData.Skills = ConvertList<int>(row[i++]);
-            testData.Speed = ConvertValue<float>(row[i++]);
-            testData.Name = ConvertValue<string>(row[i++]);
+    //        int i = 0;
+    //        TestData testData = new TestData();
+    //        testData.Level = ConvertValue<int>(row[i++]);
+    //        testData.Exp = ConvertValue<int>(row[i++]);
+    //        testData.Skills = ConvertList<int>(row[i++]);
+    //        testData.Speed = ConvertValue<float>(row[i++]);
+    //        testData.Name = ConvertValue<string>(row[i++]);
 
-            loader.tests.Add(testData);
-        }
+    //        loader.tests.Add(testData);
+    //    }
 
-        string jsonStr = JsonConvert.SerializeObject(loader, Formatting.Indented);
-        File.WriteAllText($"{Application.dataPath}/@Resources/Data/JsonData/{filename}Data.json", jsonStr);
-        AssetDatabase.Refresh();
-    }
+    //    string jsonStr = JsonConvert.SerializeObject(loader, Formatting.Indented);
+    //    File.WriteAllText($"{Application.dataPath}/@Resources/Data/JsonData/{filename}Data.json", jsonStr);
+    //    AssetDatabase.Refresh();
+    //}
     #endregion
 
     #region Helpers
