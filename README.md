@@ -34,7 +34,23 @@ UniTask
 - https://github.com/Cysharp/UniTask
 - https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask 링크를 Unity PackageManager에서 바로 붙여 사용 가능
 
+# @visual Studio Code Snippet
+vs에서 tools > code Snippet Manager 클릭 > add > 해당 폴더 추가
 
+## 스니펫 xml 설명
+`<Shortcut>여기에 vs에서 사용할 숏컷(단축어) 넣기</Shortcut>`
+$ 표시는 $$ 형태로 두번 써야 표시된다.
+```xml
+<Declarations>
+  <Literal>
+      <ID>MethodName</ID>
+      <ToolTip>Input test method name</ToolTip>
+      <Default>TestMethod</Default>
+  </Literal>
+</Declarations>
+```
+이런 형태로 사용한다면 위에서 `$MethodName$` 형태로 입력 부분을 설정해야 한다.
 
-
-
+# 주석 단축키 변경 링크
+https://velog.io/@dohui/Visual-Studio-%EC%A3%BC%EC%84%9D-%EB%8B%A8%EC%B6%95%ED%82%A4-%EB%B3%80%EA%B2%BD-ctrl
+tools > option > enviroment > Keyboard > 
